@@ -7,7 +7,7 @@
 using namespace std;
 
 void simulate(int fl, int n0, int P, float s, float a, float r) {
-    // я не смог связать О для разных файлов, потому я просто поместил её в DataBase
+    // СЏ РЅРµ СЃРјРѕРі СЃРІСЏР·Р°С‚СЊ O РґР»СЏ СЂР°Р·РЅС‹С… С„Р°Р№Р»РѕРІ, РїРѕСЌС‚РѕРјСѓ СЏ РґРѕР±Р°РІРёР» РµРіРѕ РІ DataBase
     DataBase db(n0, fl);
     for (int i = 0; i < P; i++) {
         float rng = (rand() % 100) / 100.0;
