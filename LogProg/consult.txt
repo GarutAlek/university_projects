@@ -1,0 +1,279 @@
+﻿clauses
+    команда(1, "Real Madrid", "Мадрид").
+    команда(2, "Barcelona", "Барселона").
+    команда(3, "Manchester United", "Манчестер").
+    команда(4, "Liverpool", "Ливерпуль").
+    команда(5, "Chelsea", "Лондон").
+    команда(6, "Bayern Munich", "Мюнхен").
+    команда(7, "Borussia Dortmund", "Дортмунд").
+    команда(8, "Paris Saint-Germain", "Париж").
+    команда(9, "Juventus", "Турин").
+    команда(10, "AC Milan", "Милан").
+    команда(11, "Inter Milan", "Милан").
+    команда(12, "Ajax", "Амстердам").
+    команда(13, "Benfica", "Лиссабон").
+    команда(14, "Porto", "Порту").
+    команда(15, "Celtic", "Глазго").
+    команда(16, "Rangers", "Глазго").
+    команда(17, "Galatasaray", "Стамбул").
+    команда(18, "Fenerbahçe", "Стамбул").
+    команда(19, "Shakhtar Donetsk", "Донецк").
+    команда(20, "Dynamo Kyiv", "Киев").
+
+    стадион(1, "Santiago Bernabeu", "Мадрид, Испания").
+    стадион(2, "Camp Nou", "Барселона, Испания").
+    стадион(3, "Old Trafford", "Манчестер, Англия").
+    стадион(4, "Anfield", "Ливерпуль, Англия").
+    стадион(5, "Stamford Bridge", "Лондон, Англия").
+    стадион(6, "Allianz Arena", "Мюнхен, Германия").
+    стадион(7, "Signal Iduna Park", "Дортмунд, Германия").
+    стадион(8, "Parc des Princes", "Париж, Франция").
+    стадион(9, "Juventus Stadium", "Турин, Италия").
+    стадион(10, "San Siro", "Милан, Италия").
+
+    занимает(3, 1).
+    занимает(1, 1).
+    занимает(5, 2).
+    занимает(18, 2).
+    занимает(12, 3).
+    занимает(7, 3).
+    занимает(10, 4).
+    занимает(6, 4).
+    занимает(17, 5).
+    занимает(16, 5).
+    занимает(11, 6).
+    занимает(2, 6).
+    занимает(14, 7).
+    занимает(13, 7).
+    занимает(19, 8).
+    занимает(9, 8).
+    занимает(8, 9).
+    занимает(4, 9).
+    занимает(15, 10).
+    занимает(20, 10).
+
+    футболист(1, "Karim Benzema", 33, 1).
+    футболист(2, "Sergio Ramos", 35, 1).
+    футболист(3, "Toni Kroos", 31, 1).
+    футболист(4, "Luka Modric", 35, 1).
+    футболист(5, "Eden Hazard", 30, 1).
+    футболист(6, "Vinicius Junior", 20, 1).
+    футболист(7, "Ferland Mendy", 26, 1).
+    футболист(8, "Casemiro", 29, 1).
+    футболист(9, "Marco Asensio", 25, 1).
+    футболист(10, "Rodrygo", 20, 1).
+    футболист(11, "Federico Valverde", 22, 1).
+    футболист(12, "Lionel Messi", 33, 2).
+    футболист(13, "Gerard Pique", 34, 2).
+    футболист(14, "Sergio Busquets", 32, 2).
+    футболист(15, "Jordi Alba", 32, 2).
+    футболист(16, "Antoine Griezmann", 30, 2).
+    футболист(17, "Pedri", 18, 2).
+    футболист(18, "Ousmane Dembele", 23, 2).
+    футболист(19, "Frenkie de Jong", 24, 2).
+    футболист(20, "Sergi Roberto", 29, 2).
+    футболист(21, "Ansu Fati", 18, 2).
+    футболист(22, "Ronald Araujo", 22, 2).
+    футболист(23, "Bruno Fernandes", 26, 3).
+    футболист(24, "Marcus Rashford", 23, 3).
+    футболист(25, "Paul Pogba", 28, 3).
+    футболист(26, "Edinson Cavani", 34, 3).
+    футболист(27, "Harry Maguire", 28, 3).
+    футболист(28, "Scott McTominay", 24, 3).
+    футболист(29, "Luke Shaw", 25, 3).
+    футболист(30, "Fred", 28, 3).
+    футболист(31, "Mason Greenwood", 19, 3).
+    футболист(32, "Aaron Wan-Bissaka", 23, 3).
+    футболист(33, "Dean Henderson", 24, 3).
+    футболист(34, "Mohamed Salah", 28, 4).
+    футболист(35, "Sadio Mane", 29, 4).
+    футболист(36, "Virgil van Dijk", 29, 4).
+    футболист(37, "Thiago Alcantara", 30, 4).
+    футболист(38, "Roberto Firmino", 29, 4).
+    футболист(39, "Trent Alexander-Arnold", 22, 4).
+    футболист(40, "Andrew Robertson", 27, 4).
+    футболист(41, "Fabinho", 27, 4).
+    футболист(42, "Diogo Jota", 24, 4).
+    футболист(43, "Naby Keita", 26, 4).
+    футболист(44, "Joe Gomez", 24, 4).
+    футболист(45, "N'Golo Kante", 30, 5).
+    футболист(46, "Kai Havertz", 21, 5).
+    футболист(47, "Timo Werner", 25, 5).
+    футболист(48, "Mason Mount", 22, 5).
+    футболист(49, "Reece James", 21, 5).
+    футболист(50, "Jorginho", 29, 5).
+    футболист(51, "Christian Pulisic", 22, 5).
+    футболист(52, "Ben Chilwell", 24, 5).
+    футболист(53, "Thiago Silva", 36, 5).
+    футболист(54, "Hakim Ziyech", 28, 5).
+    футболист(55, "Antonio Rudiger", 28, 5).
+    футболист(56, "Robert Lewandowski", 32, 6).
+    футболист(57, "Manuel Neuer", 35, 6).
+    футболист(58, "Thomas Muller", 31, 6).
+    футболист(59, "Joshua Kimmich", 26, 6).
+    футболист(60, "Leon Goretzka", 26, 6).
+    футболист(61, "Alphonso Davies", 20, 6).
+    футболист(62, "David Alaba", 29, 6).
+    футболист(63, "Serge Gnabry", 25, 6).
+    футболист(64, "Kingsley Coman", 24, 6).
+    футболист(65, "Niklas Sule", 25, 6).
+    футболист(66, "Leroy Sane", 25, 6).
+    футболист(67, "Erling Haaland", 20, 7).
+    футболист(68, "Jadon Sancho", 21, 7).
+    футболист(69, "Marco Reus", 31, 7).
+    футболист(70, "Mats Hummels", 32, 7).
+    футболист(71, "Jude Bellingham", 17, 7).
+    футболист(72, "Emre Can", 27, 7).
+    футболист(73, "Thomas Meunier", 29, 7).
+    футболист(74, "Thorgan Hazard", 28, 7).
+    футболист(75, "Giovanni Reyna", 18, 7).
+    футболист(76, "Raphael Guerreiro", 27, 7).
+    футболист(77, "Manuel Akanji", 25, 7).
+    футболист(78, "Kylian Mbappé", 22, 8).
+    футболист(79, "Neymar Jr.", 29, 8).
+    футболист(80, "Marco Verratti", 28, 8).
+    футболист(81, "Angel Di Maria", 33, 8).
+    футболист(82, "Marquinhos", 26, 8).
+    футболист(83, "Leandro Paredes", 26, 8).
+    футболист(84, "Presnel Kimpembe", 25, 8).
+    футболист(85, "Mauro Icardi", 28, 8).
+    футболист(86, "Sergio Ramos", 35, 8).
+    футболист(87, "Achraf Hakimi", 22, 8).
+    футболист(88, "Gianluigi Donnarumma", 22, 8).
+    футболист(89, "Cristiano Ronaldo", 36, 9).
+    футболист(90, "Paulo Dybala", 27, 9).
+    футболист(91, "Matthijs de Ligt", 21, 9).
+    футболист(92, "Federico Chiesa", 23, 9).
+    футболист(93, "Weston McKennie", 22, 9).
+    футболист(94, "Adrien Rabiot", 26, 9).
+    футболист(95, "Rodrigo Bentancur", 23, 9).
+    футболист(96, "Aaron Ramsey", 30, 9).
+    футболист(97, "Alex Sandro", 30, 9).
+    футболист(98, "Wojciech Szczesny", 31, 9).
+    футболист(99, "Giorgio Chiellini", 36, 9).
+    футболист(100, "Zlatan Ibrahimovic", 39, 10).
+    футболист(101, "Theo Hernandez", 23, 10).
+    футболист(102, "Franck Kessie", 24, 10).
+    футболист(103, "Ismael Bennacer", 23, 10).
+    футболист(104, "Sandro Tonali", 21, 10).
+    футболист(105, "Ante Rebic", 27, 10).
+    футболист(106, "Simon Kjaer", 32, 10).
+    футболист(107, "Fikayo Tomori", 23, 10).
+    футболист(108, "Hakan Calhanoglu", 27, 10).
+    футболист(109, "Brahim Diaz", 21, 10).
+    футболист(110, "Gianluigi Donnarumma", 22, 10).
+    футболист(111, "Romelu Lukaku", 27, 11).
+    футболист(112, "Lautaro Martinez", 23, 11).
+    футболист(113, "Nicolo Barella", 24, 11).
+    футболист(114, "Marcelo Brozovic", 28, 11).
+    футболист(115, "Achraf Hakimi", 22, 11).
+    футболист(116, "Stefan de Vrij", 29, 11).
+    футболист(117, "Milan Skriniar", 26, 11).
+    футболист(118, "Alessandro Bastoni", 21, 11).
+    футболист(119, "Ivan Perisic", 32, 11).
+    футболист(120, "Matteo Darmian", 31, 11).
+    футболист(121, "Samir Handanovic", 36, 11).
+    футболист(122, "Antony", 21, 12).
+    футболист(123, "David Neres", 24, 12).
+    футболист(124, "Dusan Tadic", 32, 12).
+    футболист(125, "Ryan Gravenberch", 18, 12).
+    футболист(126, "Daley Blind", 31, 12).
+    футболист(127, "Jurrien Timber", 19, 12).
+    футболист(128, "Lisandro Martinez", 23, 12).
+    футболист(129, "Nicolas Tagliafico", 28, 12).
+    футболист(130, "Noussair Mazraoui", 23, 12).
+    футболист(131, "Sébastien Haller", 27, 12).
+    футболист(132, "Maarten Stekelenburg", 38, 12).
+    футболист(133, "Haris Seferovic", 29, 13).
+    футболист(134, "Rafa Silva", 28, 13).
+    футболист(135, "Pizzi", 31, 13).
+    футболист(136, "Julian Weigl", 25, 13).
+    футболист(137, "Everton", 24, 13).
+    футболист(138, "Alejandro Grimaldo", 25, 13).
+    футболист(139, "Lucas Verissimo", 26, 13).
+    футболист(140, "Otamendi", 33, 13).
+    футболист(141, "Gilberto", 28, 13).
+    футболист(142, "Adel Taarabt", 32, 13).
+    футболист(143, "Vlachodimos", 27, 13).
+    футболист(144, "Moussa Marega", 30, 14).
+    футболист(145, "Sergio Oliveira", 29, 14).
+    футболист(146, "Jesus Corona", 28, 14).
+    футболист(147, "Luis Diaz", 24, 14).
+    футболист(148, "Otavio", 26, 14).
+    футболист(149, "Marko Grujic", 25, 14).
+    футболист(150, "Zaidu Sanusi", 23, 14).
+    футболист(151, "Chancel Mbemba", 26, 14).
+    футболист(152, "Pepe", 38, 14).
+    футболист(153, "Wilson Manafa", 27, 14).
+    футболист(154, "Agustin Marchesin", 33, 14).
+    футболист(155, "Callum McGregor", 28, 15).
+    футболист(156, "James Forrest", 29, 15).
+    футболист(157, "Scott Brown", 35, 15).
+    футболист(158, "Ryan Christie", 26, 15).
+    футболист(159, "Leigh Griffiths", 30, 15).
+    футболист(160, "Kristoffer Ajer", 23, 15).
+    футболист(161, "Odsonne Édouard", 23, 15).
+    футболист(162, "Greg Taylor", 23, 15).
+    футболист(163, "Nir Bitton", 29, 15).
+    футболист(164, "Shane Duffy", 29, 15).
+    футболист(165, "David Turnbull", 21, 15).
+    футболист(166, "Allan McGregor", 39, 16).
+    футболист(167, "James Tavernier", 29, 16).
+    футболист(168, "Connor Goldson", 28, 16).
+    футболист(169, "Ryan Jack", 29, 16).
+    футболист(170, "Glen Kamara", 25, 16).
+    футболист(171, "Scott Arfield", 32, 16).
+    футболист(172, "Ryan Kent", 24, 16).
+    футболист(173, "Joe Aribo", 25, 16).
+    футболист(174, "Kemar Roofe", 28, 16).
+    футболист(175, "Alfredo Morelos", 25, 16).
+    футболист(176, "Leon Balogun", 32, 16).
+    футболист(177, "Fernando Muslera", 35, 17).
+    футболист(178, "Martin Linnes", 29, 17).
+    футболист(179, "Christian Luyindama", 27, 17).
+    футболист(180, "Ryan Babel", 34, 17).
+    футболист(181, "Arda Turan", 34, 17).
+    футболист(182, "Younès Belhanda", 31, 17).
+    футболист(183, "Emre Kılınç", 27, 17).
+    футболист(184, "Oghenekaro Etebo", 25, 17).
+    футболист(185, "Sofiane Feghouli", 31, 17).
+    футболист(186, "Mbaye Diagne", 29, 17).
+    футболист(187, "Henry Onyekuru", 23, 17).
+    футболист(188, "Altay Bayındır", 22, 18).
+    футболист(189, "Mauricio Lemos", 25, 18).
+    футболист(190, "Serdar Aziz", 30, 18).
+    футболист(191, "Gökhan Gönül", 36, 18).
+    футболист(192, "Ozan Tufan", 26, 18).
+    футболист(193, "Luiz Gustavo", 33, 18).
+    футболист(194, "José Sosa", 36, 18).
+    футболист(195, "Mesut Özil", 32, 18).
+    футболист(196, "Enner Valencia", 31, 18).
+    футболист(197, "Mbwana Samatta", 28, 18).
+    футболист(198, "Papiss Cissé", 36, 18).
+    футболист(199, "Anatolii Trubin", 19, 19).
+    футболист(200, "Dodô", 23, 19).
+    футболист(201, "Valerii Bondar", 21, 19).
+    футболист(202, "Marcos Antonio", 21, 19).
+    футболист(203, "Alan Patrick", 30, 19).
+    футболист(204, "Taison", 33, 19).
+    футболист(205, "Marlos", 32, 19).
+    футболист(206, "Dentinho", 32, 19).
+    футболист(207, "Junior Moraes", 34, 19).
+    футболист(208, "Manor Solomon", 21, 19).
+    футболист(209, "Alan Patrick", 30, 19).
+    футболист(210, "Denys Boyko", 33, 20).
+    футболист(211, "Tomasz Kędziora", 27, 20).
+    футболист(212, "Illia Zabarnyi", 18, 20).
+    футболист(213, "Oleksandr Syrota", 18, 20).
+    футболист(214, "Vitaliy Mykolenko", 22, 20).
+    футболист(215, "Serhiy Sydorchuk", 30, 20).
+    футболист(216, "Mykola Shaparenko", 22, 20).
+    футболист(217, "Tudor Baluta", 22, 20).
+    футболист(218, "Vitaliy Buyalskyi", 28, 20).
+    футболист(219, "Benjamin Verbic", 27, 20).
+    футболист(220, "Artem Besedin", 25, 20).
+
+    роль("Нападающий").
+    роль("Полузащитник").
+    роль("Защитник").
+    роль("Вратарь").
